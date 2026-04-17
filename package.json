@@ -14,9 +14,6 @@
   "author": "",
   "type": "module",
   "main": "index.js",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +23,10 @@
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^10.2.0"
+  },
+  "bin": {
+  "brain-games": "bin/brain-games.js",
+  "brain-even": "bin/brain-even.js",
+  "brain-calc": "bin/brain-calc.js"
   }
 }
