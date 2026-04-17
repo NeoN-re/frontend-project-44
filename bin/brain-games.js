@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import runEvenGame from '../src/games/even.js';
+import greetUser from '../src/cli.js';
 
-runEvenGame();
+greetUser();
