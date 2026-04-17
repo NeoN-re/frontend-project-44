@@ -1,8 +1,16 @@
+import globals from 'globals';
 import stylistic from '@stylistic/eslint-plugin';
 
 export default [
   {
     files: ['**/*.js'],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
+      globals: {
+        ...globals.node,
+      },
+    },
     plugins: {
       '@stylistic': stylistic,
     },
@@ -17,6 +25,7 @@ export default [
       '@stylistic/space-before-function-paren': ['error', 'always'],
       '@stylistic/object-curly-spacing': ['error', 'always'],
       '@stylistic/array-bracket-spacing': ['error', 'never'],
+      '@stylistic/arrow-parens': ['error', 'as-needed'],
       'no-unused-vars': 'warn',
       'no-console': 'off',
     },
