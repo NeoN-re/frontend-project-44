@@ -30,4 +30,3 @@ const runGcdGame = () => {
 }
 
 export default runGcdGame
-
