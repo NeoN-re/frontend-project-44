@@ -1,9 +1,0 @@
-{"version": 2, "width": 151, "height": 13, "timestamp": 1776459993, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.012434, "o", "\u001b[?2004h\u001b]0;user@WIN-HO4DGVKLBAK: ~/projects/frontend-project-44\u0007\u001b[01;32muser@WIN-HO4DGVKLBAK\u001b[00m:\u001b[01;34m~/projects/frontend-project-44\u001b[00m$ "]
-[1.425975, "o", "\u001b[7mbrain-even\u001b[27m"]
-[2.742064, "o", "\u0007\b\b\b\b\b\b\b\b\b\bbrain-even"]
-[6.774775, "o", "\u0007"]
-[7.701866, "o", "\r\n\u001b[?2004l\r"]
-[7.825995, "o", "brain-even: command not found\r\n"]
-[7.833322, "o", "\u001b[?2004h\u001b]0;user@WIN-HO4DGVKLBAK: ~/projects/frontend-project-44\u0007\u001b[01;32muser@WIN-HO4DGVKLBAK\u001b[00m:\u001b[01;34m~/projects/frontend-project-44\u001b[00m$ "]
-[134.547555, "o", "\u001b[?2004l\r\r\nexit\r\n"]

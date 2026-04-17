@@ -1,9 +1,10 @@
-import globals from 'globals';
-import stylistic from '@stylistic/eslint-plugin';
+import globals from 'globals'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
     files: ['**/*.js'],
+
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -11,14 +12,16 @@ export default [
         ...globals.node,
       },
     },
+
     plugins: {
       '@stylistic': stylistic,
     },
+
     rules: {
       '@stylistic/indent': ['error', 2],
       '@stylistic/linebreak-style': ['error', 'unix'],
       '@stylistic/quotes': ['error', 'single'],
-      '@stylistic/semi': ['error', 'always'],
+      '@stylistic/semi': ['error', 'never'],
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/eol-last': ['error', 'always'],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
@@ -30,4 +33,4 @@ export default [
       'no-console': 'off',
     },
   },
-];
+]
